@@ -18,10 +18,11 @@ ul {
 .name-section { 
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    text-transform: capitalize;
 }
 
 /*Nav links */
@@ -31,6 +32,7 @@ ul {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .nav-link:hover, .nav-link:focus { 
@@ -62,7 +64,7 @@ ul {
 }
 
 .web-studio3 { 
-    color: #f4f4df;
+    color: #f4f4fd;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.5;
@@ -102,7 +104,7 @@ ul {
 }
 
 .order-button:hover, .order-button:focus { 
-    color: #404bbf;
+    color: #404BBF;
     color: #ffffff;
     cursor: pointer;
 }
@@ -114,6 +116,7 @@ ul {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .advantages-descriptions { 
@@ -132,8 +135,8 @@ ul {
 
 .name-team { 
     font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
@@ -146,7 +149,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 /*Portfolio section*/
