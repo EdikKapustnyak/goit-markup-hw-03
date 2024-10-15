@@ -1,4 +1,4 @@
-/*Base style full page*/
+/* ==== Base style full page ==== */
 
 body { 
     font-family: "Roboto", sans-serif;
@@ -25,7 +25,7 @@ ul {
     text-transform: capitalize;
 }
 
-/*Nav links */
+/* ====Nav & links==== */
 
 .nav-link { 
     font-weight: 500;
@@ -46,6 +46,8 @@ ul {
 .nav-link:active { 
     color: #404bbf;
 }
+
+/* ==== logo ====*/
 
 .web_studio-main { 
     font-family: "Raleway", sans-serif;
@@ -75,13 +77,15 @@ ul {
     letter-spacing: 3%;
 }
 
+/* ==== address ====*/
+
 .tel-mail { 
     font-style: normal;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-/*hero-image section*/
+/* ==== Hero-image section ==== */
 
 .hero-image { 
     background-color: #2e2f42;
@@ -95,6 +99,8 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
+/* ==== button ==== */
 
 .order-button { 
     font-family: "Roboto", sans-serif;
@@ -113,7 +119,7 @@ ul {
     cursor: pointer;
 }
 
-/*hero-image section end*/
+/* ==== Advanteges section ==== */
 
 .name-of-adventages { 
     font-weight: 500;
@@ -131,7 +137,7 @@ ul {
     color: #434455;
 }
 
-/*team section*/
+/* ==== team section ==== */
 
 .team { 
     background-color: #F4F4FD;
@@ -160,7 +166,7 @@ ul {
     background-color: #FFFFFF;
 }
 
-/*Portfolio section*/
+/* ==== Portfolio section ==== */
 
 .project-name { 
     font-weight: 500;
@@ -177,6 +183,8 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/* ==== footer section ==== */
 
 .author { 
     background-color: #2E2F42;
