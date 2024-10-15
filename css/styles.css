@@ -13,7 +13,12 @@ a {
 
 ul { 
     list-style-type: none;
+    padding: 0;
 }
+
+h1, h2, h3, h4, h5, h6 { 
+    padding: 0;
+} 
 
 .name-section { 
     font-weight: 700;
@@ -26,6 +31,26 @@ ul {
 }
 
 /* ====Nav & links==== */
+
+.page-head { 
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    height: 72px;
+}
+
+.web_studio-main, 
+.header { 
+    margin: 30px;
+    top: 24px
+}
+
+.header-ul { 
+    display: inline-flex;
+    gap: 40px;
+    top: 24px;
+    left: 347px;
+}
 
 .nav-link { 
     font-weight: 500;
