@@ -4,6 +4,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
     color: #434455;
+    margin: 0;
 }
 
 a { 
@@ -20,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 } 
 
+main { 
+    margin: 0;
+}
+
 .name-section { 
     font-weight: 700;
     font-size: 36px;
@@ -30,26 +35,41 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: capitalize;
 }
 
+.container { 
+    max-width: 1200px;   
+  padding: 0 15px;  
+  margin: 0 auto;
+}
+
 /* ====Nav & links==== */
+
+.container-header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 332px;
+}
+
+.navigation { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .page-head { 
     display: flex;
-    flex-direction: row;
-    border: 1px solid red;
-    height: 72px;
+    justify-content: center;
 }
 
-.web_studio-main, 
-.header { 
-    margin: 30px;
-    top: 24px
+#header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .header-ul { 
-    display: inline-flex;
+    display: flex;
+    text-align: center;
     gap: 40px;
-    top: 24px;
-    left: 347px;
 }
 
 .nav-link { 
@@ -115,6 +135,18 @@ h1, h2, h3, h4, h5, h6 {
 .hero-image { 
     background-color: #2e2f42;
     color: #ffffff;
+    height: 600px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .hero-title { 
@@ -131,8 +163,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
     background-color: #4d5ae5;
     color: #ffffff;
     cursor: pointer;
@@ -146,10 +181,31 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ==== Advanteges section ==== */
 
+.advantages { 
+    display: flex;
+    justify-content: center;
+}
+
+.advantages-container ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+    list-style: none;
+    margin: 120px 156px;
+ }
+
+ .advantages-container ul li {
+    flex: 1;
+    box-sizing: border-box;
+    width: 264px;
+}
+
 .name-of-adventages { 
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -157,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 .advantages-descriptions { 
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -166,6 +222,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .team { 
     background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+    display: flex; 
+    align-items: center;
+}
+
+.team-container ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+    list-style: none;
+}
+
+.card-text { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .team-li { 
@@ -185,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 .team-possition { 
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF;
@@ -193,10 +268,33 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ==== Portfolio section ==== */
 
+.our-partfolio { 
+    width: 1200px;
+    height: 1000px;
+    margin: 156px 120px;
+}
+
+.partfolio-container ul { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+    list-style: none;
+}
+
+.partfolio-container ul li { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .project-name { 
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -204,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 .project-type { 
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -214,6 +312,15 @@ h1, h2, h3, h4, h5, h6 {
 .author { 
     background-color: #2E2F42;
     color: #f4f4fd;
+    width: 1440px;
+    height: 312px;
+    display: flex;
+    align-items: center;
+}
+.footer-container { 
+    width: 264px;
+    height: 112px;
+    margin-left: 156px;
 }
 
 .footer-text { 
