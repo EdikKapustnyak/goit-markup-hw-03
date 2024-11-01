@@ -25,6 +25,10 @@ main {
     margin: 0;
 }
 
+img { 
+    display: block;
+}
+
 .name-section { 
     font-weight: 700;
     font-size: 36px;
@@ -211,6 +215,10 @@ main {
     width: 264px;
 }
 
+.hidden { 
+    visibility: hidden;
+}
+
 .name-of-adventages { 
     font-weight: 500;
     font-size: 20px;
@@ -332,6 +340,7 @@ main {
 .partfolio-card-text { 
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 /* ==== footer section ==== */
@@ -345,6 +354,12 @@ main {
     align-items: center;
     padding: 100px 0
 }
+
+.logo-footer { 
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-container { 
     width: 264px;
     height: 112px;
