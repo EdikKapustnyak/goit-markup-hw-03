@@ -36,7 +36,7 @@ main {
 }
 
 .container { 
-    max-width: 1200px;   
+    max-width: 1158px;   
   padding: 0 15px;  
   margin: 0 auto;
 }
@@ -48,6 +48,7 @@ main {
     align-items: center;
     justify-content: space-around;
     gap: 332px;
+    width: 1158px;
 }
 
 .navigation { 
@@ -59,6 +60,7 @@ main {
 .page-head { 
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 #header-logo {
@@ -70,6 +72,7 @@ main {
     display: flex;
     text-align: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav-link { 
@@ -155,6 +158,7 @@ main {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    max-width: 496px;
 }
 
 /* ==== button ==== */
@@ -171,6 +175,7 @@ main {
     background-color: #4d5ae5;
     color: #ffffff;
     cursor: pointer;
+    min-width: 169px;
 }
 
 .order-button:hover, .order-button:focus { 
