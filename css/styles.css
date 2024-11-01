@@ -216,7 +216,7 @@ img {
 }
 
 .visually-hidden { 
-    visibility: hidden;
+    overflow: hidden;
 }
 
 .name-of-adventages { 
